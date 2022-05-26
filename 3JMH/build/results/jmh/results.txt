@@ -1,0 +1,21 @@
+Benchmark                                (str)  Mode  Cnt     Score     Error  Units
+IntParsersBenchmark.parseChars             123  avgt    4     7.927 ±   3.283  ns/op
+IntParsersBenchmark.parseChars       123456789  avgt    4    10.185 ±   4.797  ns/op
+IntParsersBenchmark.parseChars       1234+6789  avgt    4     7.110 ±   2.022  ns/op
+IntParsersBenchmark.parseChars           1234+  avgt    4     7.678 ±   3.160  ns/op
+IntParsersBenchmark.parseChars   Just a string  avgt    4     5.265 ±   0.954  ns/op
+IntParsersBenchmark.parseInt               123  avgt    4    11.610 ±   5.073  ns/op
+IntParsersBenchmark.parseInt         123456789  avgt    4    19.464 ±   8.041  ns/op
+IntParsersBenchmark.parseInt         1234+6789  avgt    4  1963.718 ± 831.635  ns/op
+IntParsersBenchmark.parseInt             1234+  avgt    4  2011.410 ± 151.647  ns/op
+IntParsersBenchmark.parseInt     Just a string  avgt    4  2003.289 ± 568.251  ns/op
+IntParsersBenchmark.parseRegex             123  avgt    4    54.567 ±  18.916  ns/op
+IntParsersBenchmark.parseRegex       123456789  avgt    4    60.031 ±  20.560  ns/op
+IntParsersBenchmark.parseRegex       1234+6789  avgt    4    83.702 ± 258.046  ns/op
+IntParsersBenchmark.parseRegex           1234+  avgt    4    60.248 ±  20.039  ns/op
+IntParsersBenchmark.parseRegex   Just a string  avgt    4    50.375 ±  48.354  ns/op
+IntParsersBenchmark.parseRegex2            123  avgt    4   204.103 ±  54.899  ns/op
+IntParsersBenchmark.parseRegex2      123456789  avgt    4   191.246 ± 115.407  ns/op
+IntParsersBenchmark.parseRegex2      1234+6789  avgt    4   183.388 ± 268.083  ns/op
+IntParsersBenchmark.parseRegex2          1234+  avgt    4   208.208 ± 134.388  ns/op
+IntParsersBenchmark.parseRegex2  Just a string  avgt    4   186.937 ±  69.983  ns/op

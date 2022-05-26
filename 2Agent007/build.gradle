@@ -1,0 +1,37 @@
+plugins {
+    id 'java-library' // будем создавать java библиотеку (итоговый файл в build/libs)
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+
+tasks.named('jar') {
+    // декларируем манифест
+    manifest {
+        attributes('Premain-Class': 'Agent007')
+    }
+    // имя выходного jar файла
+    archiveBaseName = "Agent007"
+    // copy configurations dependencies
+    from {
+        configurations.compileClasspath.collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+    }
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+    implementation 'org.javassist:javassist:3.29.0-GA'
+}
+
+
+test {
+    useJUnitPlatform()
+}

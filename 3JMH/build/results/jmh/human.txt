@@ -1,0 +1,691 @@
+# JMH version: 1.25
+# VM version: JDK 16.0.2, OpenJDK 64-Bit Server VM, 16.0.2+7
+# VM invoker: C:\Users\nikit\.jdks\corretto-16.0.2\bin\java.exe
+# VM options: -Dfile.encoding=windows-1251 -Djava.io.tmpdir=C:\Users\nikit\Desktop\JavaOptimization\3JMH\build\tmp\jmh -Duser.country=US -Duser.language=en -Duser.variant
+# Warmup: 2 iterations, 1 s each
+# Measurement: 2 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: me.champeau.jmh.IntParsersBenchmark.parseChars
+# Parameters: (str = 123)
+
+# Run progress: 0.00% complete, ETA 00:14:40
+# Fork: 1 of 2
+# Warmup Iteration   1: 11.436 ns/op
+# Warmup Iteration   2: 8.869 ns/op
+Iteration   1: 8.271 ns/op
+Iteration   2: 8.232 ns/op
+
+# Run progress: 2.50% complete, ETA 00:14:35
+# Fork: 2 of 2
+# Warmup Iteration   1: 6.626 ns/op
+# Warmup Iteration   2: 7.176 ns/op
+Iteration   1: 7.183 ns/op
+Iteration   2: 8.022 ns/op
+
+
+Result "me.champeau.jmh.IntParsersBenchmark.parseChars":
+  7.927 ±(99.9%) 3.283 ns/op [Average]
+  (min, avg, max) = (7.183, 7.927, 8.271), stdev = 0.508
+  CI (99.9%): [4.644, 11.210] (assumes normal distribution)
+
+
+# JMH version: 1.25
+# VM version: JDK 16.0.2, OpenJDK 64-Bit Server VM, 16.0.2+7
+# VM invoker: C:\Users\nikit\.jdks\corretto-16.0.2\bin\java.exe
+# VM options: -Dfile.encoding=windows-1251 -Djava.io.tmpdir=C:\Users\nikit\Desktop\JavaOptimization\3JMH\build\tmp\jmh -Duser.country=US -Duser.language=en -Duser.variant
+# Warmup: 2 iterations, 1 s each
+# Measurement: 2 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: me.champeau.jmh.IntParsersBenchmark.parseChars
+# Parameters: (str = 123456789)
+
+# Run progress: 5.00% complete, ETA 00:14:11
+# Fork: 1 of 2
+# Warmup Iteration   1: 10.841 ns/op
+# Warmup Iteration   2: 12.804 ns/op
+Iteration   1: 10.691 ns/op
+Iteration   2: 9.559 ns/op
+
+# Run progress: 7.50% complete, ETA 00:13:49
+# Fork: 2 of 2
+# Warmup Iteration   1: 8.634 ns/op
+# Warmup Iteration   2: 9.798 ns/op
+Iteration   1: 9.539 ns/op
+Iteration   2: 10.952 ns/op
+
+
+Result "me.champeau.jmh.IntParsersBenchmark.parseChars":
+  10.185 ±(99.9%) 4.797 ns/op [Average]
+  (min, avg, max) = (9.539, 10.185, 10.952), stdev = 0.742
+  CI (99.9%): [5.388, 14.982] (assumes normal distribution)
+
+
+# JMH version: 1.25
+# VM version: JDK 16.0.2, OpenJDK 64-Bit Server VM, 16.0.2+7
+# VM invoker: C:\Users\nikit\.jdks\corretto-16.0.2\bin\java.exe
+# VM options: -Dfile.encoding=windows-1251 -Djava.io.tmpdir=C:\Users\nikit\Desktop\JavaOptimization\3JMH\build\tmp\jmh -Duser.country=US -Duser.language=en -Duser.variant
+# Warmup: 2 iterations, 1 s each
+# Measurement: 2 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: me.champeau.jmh.IntParsersBenchmark.parseChars
+# Parameters: (str = 1234+6789)
+
+# Run progress: 10.00% complete, ETA 00:13:27
+# Fork: 1 of 2
+# Warmup Iteration   1: 8.054 ns/op
+# Warmup Iteration   2: 9.103 ns/op
+Iteration   1: 6.679 ns/op
+Iteration   2: 7.080 ns/op
+
+# Run progress: 12.50% complete, ETA 00:13:05
+# Fork: 2 of 2
+# Warmup Iteration   1: 7.842 ns/op
+# Warmup Iteration   2: 7.548 ns/op
+Iteration   1: 7.343 ns/op
+Iteration   2: 7.340 ns/op
+
+
+Result "me.champeau.jmh.IntParsersBenchmark.parseChars":
+  7.110 ±(99.9%) 2.022 ns/op [Average]
+  (min, avg, max) = (6.679, 7.110, 7.343), stdev = 0.313
+  CI (99.9%): [5.088, 9.133] (assumes normal distribution)
+
+
+# JMH version: 1.25
+# VM version: JDK 16.0.2, OpenJDK 64-Bit Server VM, 16.0.2+7
+# VM invoker: C:\Users\nikit\.jdks\corretto-16.0.2\bin\java.exe
+# VM options: -Dfile.encoding=windows-1251 -Djava.io.tmpdir=C:\Users\nikit\Desktop\JavaOptimization\3JMH\build\tmp\jmh -Duser.country=US -Duser.language=en -Duser.variant
+# Warmup: 2 iterations, 1 s each
+# Measurement: 2 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: me.champeau.jmh.IntParsersBenchmark.parseChars
+# Parameters: (str = 1234+)
+
+# Run progress: 15.00% complete, ETA 00:12:42
+# Fork: 1 of 2
+# Warmup Iteration   1: 8.580 ns/op
+# Warmup Iteration   2: 8.955 ns/op
+Iteration   1: 8.042 ns/op
+Iteration   2: 6.965 ns/op
+
+# Run progress: 17.50% complete, ETA 00:12:20
+# Fork: 2 of 2
+# Warmup Iteration   1: 9.918 ns/op
+# Warmup Iteration   2: 8.876 ns/op
+Iteration   1: 7.766 ns/op
+Iteration   2: 7.941 ns/op
+
+
+Result "me.champeau.jmh.IntParsersBenchmark.parseChars":
+  7.678 ±(99.9%) 3.160 ns/op [Average]
+  (min, avg, max) = (6.965, 7.678, 8.042), stdev = 0.489
+  CI (99.9%): [4.519, 10.838] (assumes normal distribution)
+
+
+# JMH version: 1.25
+# VM version: JDK 16.0.2, OpenJDK 64-Bit Server VM, 16.0.2+7
+# VM invoker: C:\Users\nikit\.jdks\corretto-16.0.2\bin\java.exe
+# VM options: -Dfile.encoding=windows-1251 -Djava.io.tmpdir=C:\Users\nikit\Desktop\JavaOptimization\3JMH\build\tmp\jmh -Duser.country=US -Duser.language=en -Duser.variant
+# Warmup: 2 iterations, 1 s each
+# Measurement: 2 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: me.champeau.jmh.IntParsersBenchmark.parseChars
+# Parameters: (str = Just a string)
+
+# Run progress: 20.00% complete, ETA 00:11:57
+# Fork: 1 of 2
+# Warmup Iteration   1: 6.856 ns/op
+# Warmup Iteration   2: 7.796 ns/op
+Iteration   1: 5.445 ns/op
+Iteration   2: 5.181 ns/op
+
+# Run progress: 22.50% complete, ETA 00:11:35
+# Fork: 2 of 2
+# Warmup Iteration   1: 6.046 ns/op
+# Warmup Iteration   2: 5.853 ns/op
+Iteration   1: 5.320 ns/op
+Iteration   2: 5.113 ns/op
+
+
+Result "me.champeau.jmh.IntParsersBenchmark.parseChars":
+  5.265 ±(99.9%) 0.954 ns/op [Average]
+  (min, avg, max) = (5.113, 5.265, 5.445), stdev = 0.148
+  CI (99.9%): [4.311, 6.219] (assumes normal distribution)
+
+
+# JMH version: 1.25
+# VM version: JDK 16.0.2, OpenJDK 64-Bit Server VM, 16.0.2+7
+# VM invoker: C:\Users\nikit\.jdks\corretto-16.0.2\bin\java.exe
+# VM options: -Dfile.encoding=windows-1251 -Djava.io.tmpdir=C:\Users\nikit\Desktop\JavaOptimization\3JMH\build\tmp\jmh -Duser.country=US -Duser.language=en -Duser.variant
+# Warmup: 2 iterations, 1 s each
+# Measurement: 2 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: me.champeau.jmh.IntParsersBenchmark.parseInt
+# Parameters: (str = 123)
+
+# Run progress: 25.00% complete, ETA 00:11:13
+# Fork: 1 of 2
+# Warmup Iteration   1: 10.966 ns/op
+# Warmup Iteration   2: 10.179 ns/op
+Iteration   1: 12.266 ns/op
+Iteration   2: 12.233 ns/op
+
+# Run progress: 27.50% complete, ETA 00:10:50
+# Fork: 2 of 2
+# Warmup Iteration   1: 12.215 ns/op
+# Warmup Iteration   2: 13.479 ns/op
+Iteration   1: 10.644 ns/op
+Iteration   2: 11.296 ns/op
+
+
+Result "me.champeau.jmh.IntParsersBenchmark.parseInt":
+  11.610 ±(99.9%) 5.073 ns/op [Average]
+  (min, avg, max) = (10.644, 11.610, 12.266), stdev = 0.785
+  CI (99.9%): [6.537, 16.683] (assumes normal distribution)
+
+
+# JMH version: 1.25
+# VM version: JDK 16.0.2, OpenJDK 64-Bit Server VM, 16.0.2+7
+# VM invoker: C:\Users\nikit\.jdks\corretto-16.0.2\bin\java.exe
+# VM options: -Dfile.encoding=windows-1251 -Djava.io.tmpdir=C:\Users\nikit\Desktop\JavaOptimization\3JMH\build\tmp\jmh -Duser.country=US -Duser.language=en -Duser.variant
+# Warmup: 2 iterations, 1 s each
+# Measurement: 2 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: me.champeau.jmh.IntParsersBenchmark.parseInt
+# Parameters: (str = 123456789)
+
+# Run progress: 30.00% complete, ETA 00:10:28
+# Fork: 1 of 2
+# Warmup Iteration   1: 21.371 ns/op
+# Warmup Iteration   2: 25.126 ns/op
+Iteration   1: 21.207 ns/op
+Iteration   2: 19.513 ns/op
+
+# Run progress: 32.50% complete, ETA 00:10:06
+# Fork: 2 of 2
+# Warmup Iteration   1: 19.072 ns/op
+# Warmup Iteration   2: 23.810 ns/op
+Iteration   1: 18.561 ns/op
+Iteration   2: 18.575 ns/op
+
+
+Result "me.champeau.jmh.IntParsersBenchmark.parseInt":
+  19.464 ±(99.9%) 8.041 ns/op [Average]
+  (min, avg, max) = (18.561, 19.464, 21.207), stdev = 1.244
+  CI (99.9%): [11.423, 27.505] (assumes normal distribution)
+
+
+# JMH version: 1.25
+# VM version: JDK 16.0.2, OpenJDK 64-Bit Server VM, 16.0.2+7
+# VM invoker: C:\Users\nikit\.jdks\corretto-16.0.2\bin\java.exe
+# VM options: -Dfile.encoding=windows-1251 -Djava.io.tmpdir=C:\Users\nikit\Desktop\JavaOptimization\3JMH\build\tmp\jmh -Duser.country=US -Duser.language=en -Duser.variant
+# Warmup: 2 iterations, 1 s each
+# Measurement: 2 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: me.champeau.jmh.IntParsersBenchmark.parseInt
+# Parameters: (str = 1234+6789)
+
+# Run progress: 35.00% complete, ETA 00:09:44
+# Fork: 1 of 2
+# Warmup Iteration   1: 2200.097 ns/op
+# Warmup Iteration   2: 1995.700 ns/op
+Iteration   1: 2045.235 ns/op
+Iteration   2: 1900.097 ns/op
+
+# Run progress: 37.50% complete, ETA 00:09:21
+# Fork: 2 of 2
+# Warmup Iteration   1: 2125.997 ns/op
+# Warmup Iteration   2: 1594.013 ns/op
+Iteration   1: 2094.117 ns/op
+Iteration   2: 1815.422 ns/op
+
+
+Result "me.champeau.jmh.IntParsersBenchmark.parseInt":
+  1963.718 ±(99.9%) 831.635 ns/op [Average]
+  (min, avg, max) = (1815.422, 1963.718, 2094.117), stdev = 128.696
+  CI (99.9%): [1132.083, 2795.353] (assumes normal distribution)
+
+
+# JMH version: 1.25
+# VM version: JDK 16.0.2, OpenJDK 64-Bit Server VM, 16.0.2+7
+# VM invoker: C:\Users\nikit\.jdks\corretto-16.0.2\bin\java.exe
+# VM options: -Dfile.encoding=windows-1251 -Djava.io.tmpdir=C:\Users\nikit\Desktop\JavaOptimization\3JMH\build\tmp\jmh -Duser.country=US -Duser.language=en -Duser.variant
+# Warmup: 2 iterations, 1 s each
+# Measurement: 2 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: me.champeau.jmh.IntParsersBenchmark.parseInt
+# Parameters: (str = 1234+)
+
+# Run progress: 40.00% complete, ETA 00:08:59
+# Fork: 1 of 2
+# Warmup Iteration   1: 1674.398 ns/op
+# Warmup Iteration   2: 2263.300 ns/op
+Iteration   1: 2042.516 ns/op
+Iteration   2: 1991.665 ns/op
+
+# Run progress: 42.50% complete, ETA 00:08:37
+# Fork: 2 of 2
+# Warmup Iteration   1: 2002.385 ns/op
+# Warmup Iteration   2: 1688.540 ns/op
+Iteration   1: 2016.457 ns/op
+Iteration   2: 1995.001 ns/op
+
+
+Result "me.champeau.jmh.IntParsersBenchmark.parseInt":
+  2011.410 ±(99.9%) 151.647 ns/op [Average]
+  (min, avg, max) = (1991.665, 2011.410, 2042.516), stdev = 23.468
+  CI (99.9%): [1859.762, 2163.057] (assumes normal distribution)
+
+
+# JMH version: 1.25
+# VM version: JDK 16.0.2, OpenJDK 64-Bit Server VM, 16.0.2+7
+# VM invoker: C:\Users\nikit\.jdks\corretto-16.0.2\bin\java.exe
+# VM options: -Dfile.encoding=windows-1251 -Djava.io.tmpdir=C:\Users\nikit\Desktop\JavaOptimization\3JMH\build\tmp\jmh -Duser.country=US -Duser.language=en -Duser.variant
+# Warmup: 2 iterations, 1 s each
+# Measurement: 2 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: me.champeau.jmh.IntParsersBenchmark.parseInt
+# Parameters: (str = Just a string)
+
+# Run progress: 45.00% complete, ETA 00:08:14
+# Fork: 1 of 2
+# Warmup Iteration   1: 2992.474 ns/op
+# Warmup Iteration   2: 2143.514 ns/op
+Iteration   1: 2090.578 ns/op
+Iteration   2: 2006.390 ns/op
+
+# Run progress: 47.50% complete, ETA 00:07:52
+# Fork: 2 of 2
+# Warmup Iteration   1: 2598.696 ns/op
+# Warmup Iteration   2: 1940.794 ns/op
+Iteration   1: 1882.315 ns/op
+Iteration   2: 2033.872 ns/op
+
+
+Result "me.champeau.jmh.IntParsersBenchmark.parseInt":
+  2003.289 ±(99.9%) 568.251 ns/op [Average]
+  (min, avg, max) = (1882.315, 2003.289, 2090.578), stdev = 87.938
+  CI (99.9%): [1435.037, 2571.540] (assumes normal distribution)
+
+
+# JMH version: 1.25
+# VM version: JDK 16.0.2, OpenJDK 64-Bit Server VM, 16.0.2+7
+# VM invoker: C:\Users\nikit\.jdks\corretto-16.0.2\bin\java.exe
+# VM options: -Dfile.encoding=windows-1251 -Djava.io.tmpdir=C:\Users\nikit\Desktop\JavaOptimization\3JMH\build\tmp\jmh -Duser.country=US -Duser.language=en -Duser.variant
+# Warmup: 2 iterations, 1 s each
+# Measurement: 2 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: me.champeau.jmh.IntParsersBenchmark.parseRegex
+# Parameters: (str = 123)
+
+# Run progress: 50.00% complete, ETA 00:07:29
+# Fork: 1 of 2
+# Warmup Iteration   1: 57.694 ns/op
+# Warmup Iteration   2: 49.228 ns/op
+Iteration   1: 50.508 ns/op
+Iteration   2: 54.756 ns/op
+
+# Run progress: 52.50% complete, ETA 00:07:07
+# Fork: 2 of 2
+# Warmup Iteration   1: 41.851 ns/op
+# Warmup Iteration   2: 84.095 ns/op
+Iteration   1: 57.425 ns/op
+Iteration   2: 55.581 ns/op
+
+
+Result "me.champeau.jmh.IntParsersBenchmark.parseRegex":
+  54.567 ±(99.9%) 18.916 ns/op [Average]
+  (min, avg, max) = (50.508, 54.567, 57.425), stdev = 2.927
+  CI (99.9%): [35.651, 73.484] (assumes normal distribution)
+
+
+# JMH version: 1.25
+# VM version: JDK 16.0.2, OpenJDK 64-Bit Server VM, 16.0.2+7
+# VM invoker: C:\Users\nikit\.jdks\corretto-16.0.2\bin\java.exe
+# VM options: -Dfile.encoding=windows-1251 -Djava.io.tmpdir=C:\Users\nikit\Desktop\JavaOptimization\3JMH\build\tmp\jmh -Duser.country=US -Duser.language=en -Duser.variant
+# Warmup: 2 iterations, 1 s each
+# Measurement: 2 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: me.champeau.jmh.IntParsersBenchmark.parseRegex
+# Parameters: (str = 123456789)
+
+# Run progress: 55.00% complete, ETA 00:06:44
+# Fork: 1 of 2
+# Warmup Iteration   1: 39.942 ns/op
+# Warmup Iteration   2: 64.201 ns/op
+Iteration   1: 58.760 ns/op
+Iteration   2: 56.207 ns/op
+
+# Run progress: 57.50% complete, ETA 00:06:22
+# Fork: 2 of 2
+# Warmup Iteration   1: 76.608 ns/op
+# Warmup Iteration   2: 60.605 ns/op
+Iteration   1: 63.341 ns/op
+Iteration   2: 61.814 ns/op
+
+
+Result "me.champeau.jmh.IntParsersBenchmark.parseRegex":
+  60.031 ±(99.9%) 20.560 ns/op [Average]
+  (min, avg, max) = (56.207, 60.031, 63.341), stdev = 3.182
+  CI (99.9%): [39.470, 80.591] (assumes normal distribution)
+
+
+# JMH version: 1.25
+# VM version: JDK 16.0.2, OpenJDK 64-Bit Server VM, 16.0.2+7
+# VM invoker: C:\Users\nikit\.jdks\corretto-16.0.2\bin\java.exe
+# VM options: -Dfile.encoding=windows-1251 -Djava.io.tmpdir=C:\Users\nikit\Desktop\JavaOptimization\3JMH\build\tmp\jmh -Duser.country=US -Duser.language=en -Duser.variant
+# Warmup: 2 iterations, 1 s each
+# Measurement: 2 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: me.champeau.jmh.IntParsersBenchmark.parseRegex
+# Parameters: (str = 1234+6789)
+
+# Run progress: 60.00% complete, ETA 00:05:59
+# Fork: 1 of 2
+# Warmup Iteration   1: 104.513 ns/op
+# Warmup Iteration   2: 95.640 ns/op
+Iteration   1: 118.395 ns/op
+Iteration   2: 118.128 ns/op
+
+# Run progress: 62.50% complete, ETA 00:05:37
+# Fork: 2 of 2
+# Warmup Iteration   1: 41.916 ns/op
+# Warmup Iteration   2: 66.616 ns/op
+Iteration   1: 50.907 ns/op
+Iteration   2: 47.376 ns/op
+
+
+Result "me.champeau.jmh.IntParsersBenchmark.parseRegex":
+  83.702 ±(99.9%) 258.046 ns/op [Average]
+  (min, avg, max) = (47.376, 83.702, 118.395), stdev = 39.933
+  CI (99.9%): [? 0, 341.747] (assumes normal distribution)
+
+
+# JMH version: 1.25
+# VM version: JDK 16.0.2, OpenJDK 64-Bit Server VM, 16.0.2+7
+# VM invoker: C:\Users\nikit\.jdks\corretto-16.0.2\bin\java.exe
+# VM options: -Dfile.encoding=windows-1251 -Djava.io.tmpdir=C:\Users\nikit\Desktop\JavaOptimization\3JMH\build\tmp\jmh -Duser.country=US -Duser.language=en -Duser.variant
+# Warmup: 2 iterations, 1 s each
+# Measurement: 2 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: me.champeau.jmh.IntParsersBenchmark.parseRegex
+# Parameters: (str = 1234+)
+
+# Run progress: 65.00% complete, ETA 00:05:14
+# Fork: 1 of 2
+# Warmup Iteration   1: 82.132 ns/op
+# Warmup Iteration   2: 74.596 ns/op
+Iteration   1: 63.029 ns/op
+Iteration   2: 62.519 ns/op
+
+# Run progress: 67.50% complete, ETA 00:04:52
+# Fork: 2 of 2
+# Warmup Iteration   1: 57.963 ns/op
+# Warmup Iteration   2: 51.188 ns/op
+Iteration   1: 56.457 ns/op
+Iteration   2: 58.989 ns/op
+
+
+Result "me.champeau.jmh.IntParsersBenchmark.parseRegex":
+  60.248 ±(99.9%) 20.039 ns/op [Average]
+  (min, avg, max) = (56.457, 60.248, 63.029), stdev = 3.101
+  CI (99.9%): [40.209, 80.288] (assumes normal distribution)
+
+
+# JMH version: 1.25
+# VM version: JDK 16.0.2, OpenJDK 64-Bit Server VM, 16.0.2+7
+# VM invoker: C:\Users\nikit\.jdks\corretto-16.0.2\bin\java.exe
+# VM options: -Dfile.encoding=windows-1251 -Djava.io.tmpdir=C:\Users\nikit\Desktop\JavaOptimization\3JMH\build\tmp\jmh -Duser.country=US -Duser.language=en -Duser.variant
+# Warmup: 2 iterations, 1 s each
+# Measurement: 2 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: me.champeau.jmh.IntParsersBenchmark.parseRegex
+# Parameters: (str = Just a string)
+
+# Run progress: 70.00% complete, ETA 00:04:29
+# Fork: 1 of 2
+# Warmup Iteration   1: 55.558 ns/op
+# Warmup Iteration   2: 47.028 ns/op
+Iteration   1: 46.518 ns/op
+Iteration   2: 42.409 ns/op
+
+# Run progress: 72.50% complete, ETA 00:04:07
+# Fork: 2 of 2
+# Warmup Iteration   1: 31.471 ns/op
+# Warmup Iteration   2: 44.310 ns/op
+Iteration   1: 59.428 ns/op
+Iteration   2: 53.145 ns/op
+
+
+Result "me.champeau.jmh.IntParsersBenchmark.parseRegex":
+  50.375 ±(99.9%) 48.354 ns/op [Average]
+  (min, avg, max) = (42.409, 50.375, 59.428), stdev = 7.483
+  CI (99.9%): [2.022, 98.729] (assumes normal distribution)
+
+
+# JMH version: 1.25
+# VM version: JDK 16.0.2, OpenJDK 64-Bit Server VM, 16.0.2+7
+# VM invoker: C:\Users\nikit\.jdks\corretto-16.0.2\bin\java.exe
+# VM options: -Dfile.encoding=windows-1251 -Djava.io.tmpdir=C:\Users\nikit\Desktop\JavaOptimization\3JMH\build\tmp\jmh -Duser.country=US -Duser.language=en -Duser.variant
+# Warmup: 2 iterations, 1 s each
+# Measurement: 2 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: me.champeau.jmh.IntParsersBenchmark.parseRegex2
+# Parameters: (str = 123)
+
+# Run progress: 75.00% complete, ETA 00:03:44
+# Fork: 1 of 2
+# Warmup Iteration   1: 294.314 ns/op
+# Warmup Iteration   2: 212.072 ns/op
+Iteration   1: 212.174 ns/op
+Iteration   2: 192.164 ns/op
+
+# Run progress: 77.50% complete, ETA 00:03:22
+# Fork: 2 of 2
+# Warmup Iteration   1: 229.330 ns/op
+# Warmup Iteration   2: 175.736 ns/op
+Iteration   1: 206.860 ns/op
+Iteration   2: 205.215 ns/op
+
+
+Result "me.champeau.jmh.IntParsersBenchmark.parseRegex2":
+  204.103 ±(99.9%) 54.899 ns/op [Average]
+  (min, avg, max) = (192.164, 204.103, 212.174), stdev = 8.496
+  CI (99.9%): [149.204, 259.002] (assumes normal distribution)
+
+
+# JMH version: 1.25
+# VM version: JDK 16.0.2, OpenJDK 64-Bit Server VM, 16.0.2+7
+# VM invoker: C:\Users\nikit\.jdks\corretto-16.0.2\bin\java.exe
+# VM options: -Dfile.encoding=windows-1251 -Djava.io.tmpdir=C:\Users\nikit\Desktop\JavaOptimization\3JMH\build\tmp\jmh -Duser.country=US -Duser.language=en -Duser.variant
+# Warmup: 2 iterations, 1 s each
+# Measurement: 2 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: me.champeau.jmh.IntParsersBenchmark.parseRegex2
+# Parameters: (str = 123456789)
+
+# Run progress: 80.00% complete, ETA 00:02:59
+# Fork: 1 of 2
+# Warmup Iteration   1: 367.242 ns/op
+# Warmup Iteration   2: 281.831 ns/op
+Iteration   1: 210.869 ns/op
+Iteration   2: 201.283 ns/op
+
+# Run progress: 82.50% complete, ETA 00:02:37
+# Fork: 2 of 2
+# Warmup Iteration   1: 296.735 ns/op
+# Warmup Iteration   2: 174.137 ns/op
+Iteration   1: 172.466 ns/op
+Iteration   2: 180.367 ns/op
+
+
+Result "me.champeau.jmh.IntParsersBenchmark.parseRegex2":
+  191.246 ±(99.9%) 115.407 ns/op [Average]
+  (min, avg, max) = (172.466, 191.246, 210.869), stdev = 17.859
+  CI (99.9%): [75.840, 306.653] (assumes normal distribution)
+
+
+# JMH version: 1.25
+# VM version: JDK 16.0.2, OpenJDK 64-Bit Server VM, 16.0.2+7
+# VM invoker: C:\Users\nikit\.jdks\corretto-16.0.2\bin\java.exe
+# VM options: -Dfile.encoding=windows-1251 -Djava.io.tmpdir=C:\Users\nikit\Desktop\JavaOptimization\3JMH\build\tmp\jmh -Duser.country=US -Duser.language=en -Duser.variant
+# Warmup: 2 iterations, 1 s each
+# Measurement: 2 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: me.champeau.jmh.IntParsersBenchmark.parseRegex2
+# Parameters: (str = 1234+6789)
+
+# Run progress: 85.00% complete, ETA 00:02:14
+# Fork: 1 of 2
+# Warmup Iteration   1: 237.352 ns/op
+# Warmup Iteration   2: 192.487 ns/op
+Iteration   1: 229.288 ns/op
+Iteration   2: 206.695 ns/op
+
+# Run progress: 87.50% complete, ETA 00:01:52
+# Fork: 2 of 2
+# Warmup Iteration   1: 235.342 ns/op
+# Warmup Iteration   2: 144.131 ns/op
+Iteration   1: 141.085 ns/op
+Iteration   2: 156.485 ns/op
+
+
+Result "me.champeau.jmh.IntParsersBenchmark.parseRegex2":
+  183.388 ±(99.9%) 268.083 ns/op [Average]
+  (min, avg, max) = (141.085, 183.388, 229.288), stdev = 41.486
+  CI (99.9%): [? 0, 451.471] (assumes normal distribution)
+
+
+# JMH version: 1.25
+# VM version: JDK 16.0.2, OpenJDK 64-Bit Server VM, 16.0.2+7
+# VM invoker: C:\Users\nikit\.jdks\corretto-16.0.2\bin\java.exe
+# VM options: -Dfile.encoding=windows-1251 -Djava.io.tmpdir=C:\Users\nikit\Desktop\JavaOptimization\3JMH\build\tmp\jmh -Duser.country=US -Duser.language=en -Duser.variant
+# Warmup: 2 iterations, 1 s each
+# Measurement: 2 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: me.champeau.jmh.IntParsersBenchmark.parseRegex2
+# Parameters: (str = 1234+)
+
+# Run progress: 90.00% complete, ETA 00:01:29
+# Fork: 1 of 2
+# Warmup Iteration   1: 230.400 ns/op
+# Warmup Iteration   2: 175.266 ns/op
+Iteration   1: 221.747 ns/op
+Iteration   2: 178.060 ns/op
+
+# Run progress: 92.50% complete, ETA 00:01:07
+# Fork: 2 of 2
+# Warmup Iteration   1: 309.384 ns/op
+# Warmup Iteration   2: 207.795 ns/op
+Iteration   1: 210.706 ns/op
+Iteration   2: 222.318 ns/op
+
+
+Result "me.champeau.jmh.IntParsersBenchmark.parseRegex2":
+  208.208 ±(99.9%) 134.388 ns/op [Average]
+  (min, avg, max) = (178.060, 208.208, 222.318), stdev = 20.797
+  CI (99.9%): [73.820, 342.595] (assumes normal distribution)
+
+
+# JMH version: 1.25
+# VM version: JDK 16.0.2, OpenJDK 64-Bit Server VM, 16.0.2+7
+# VM invoker: C:\Users\nikit\.jdks\corretto-16.0.2\bin\java.exe
+# VM options: -Dfile.encoding=windows-1251 -Djava.io.tmpdir=C:\Users\nikit\Desktop\JavaOptimization\3JMH\build\tmp\jmh -Duser.country=US -Duser.language=en -Duser.variant
+# Warmup: 2 iterations, 1 s each
+# Measurement: 2 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: me.champeau.jmh.IntParsersBenchmark.parseRegex2
+# Parameters: (str = Just a string)
+
+# Run progress: 95.00% complete, ETA 00:00:44
+# Fork: 1 of 2
+# Warmup Iteration   1: 317.384 ns/op
+# Warmup Iteration   2: 173.747 ns/op
+Iteration   1: 171.146 ns/op
+Iteration   2: 189.369 ns/op
+
+# Run progress: 97.50% complete, ETA 00:00:22
+# Fork: 2 of 2
+# Warmup Iteration   1: 250.566 ns/op
+# Warmup Iteration   2: 267.907 ns/op
+Iteration   1: 191.704 ns/op
+Iteration   2: 195.531 ns/op
+
+
+Result "me.champeau.jmh.IntParsersBenchmark.parseRegex2":
+  186.937 ±(99.9%) 69.983 ns/op [Average]
+  (min, avg, max) = (171.146, 186.937, 195.531), stdev = 10.830
+  CI (99.9%): [116.955, 256.920] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:14:59
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                (str)  Mode  Cnt     Score     Error  Units
+IntParsersBenchmark.parseChars             123  avgt    4     7.927 ±   3.283  ns/op
+IntParsersBenchmark.parseChars       123456789  avgt    4    10.185 ±   4.797  ns/op
+IntParsersBenchmark.parseChars       1234+6789  avgt    4     7.110 ±   2.022  ns/op
+IntParsersBenchmark.parseChars           1234+  avgt    4     7.678 ±   3.160  ns/op
+IntParsersBenchmark.parseChars   Just a string  avgt    4     5.265 ±   0.954  ns/op
+IntParsersBenchmark.parseInt               123  avgt    4    11.610 ±   5.073  ns/op
+IntParsersBenchmark.parseInt         123456789  avgt    4    19.464 ±   8.041  ns/op
+IntParsersBenchmark.parseInt         1234+6789  avgt    4  1963.718 ± 831.635  ns/op
+IntParsersBenchmark.parseInt             1234+  avgt    4  2011.410 ± 151.647  ns/op
+IntParsersBenchmark.parseInt     Just a string  avgt    4  2003.289 ± 568.251  ns/op
+IntParsersBenchmark.parseRegex             123  avgt    4    54.567 ±  18.916  ns/op
+IntParsersBenchmark.parseRegex       123456789  avgt    4    60.031 ±  20.560  ns/op
+IntParsersBenchmark.parseRegex       1234+6789  avgt    4    83.702 ± 258.046  ns/op
+IntParsersBenchmark.parseRegex           1234+  avgt    4    60.248 ±  20.039  ns/op
+IntParsersBenchmark.parseRegex   Just a string  avgt    4    50.375 ±  48.354  ns/op
+IntParsersBenchmark.parseRegex2            123  avgt    4   204.103 ±  54.899  ns/op
+IntParsersBenchmark.parseRegex2      123456789  avgt    4   191.246 ± 115.407  ns/op
+IntParsersBenchmark.parseRegex2      1234+6789  avgt    4   183.388 ± 268.083  ns/op
+IntParsersBenchmark.parseRegex2          1234+  avgt    4   208.208 ± 134.388  ns/op
+IntParsersBenchmark.parseRegex2  Just a string  avgt    4   186.937 ±  69.983  ns/op
+
+Benchmark result is saved to C:\Users\nikit\Desktop\JavaOptimization\3JMH\build\results\jmh\results.txt
